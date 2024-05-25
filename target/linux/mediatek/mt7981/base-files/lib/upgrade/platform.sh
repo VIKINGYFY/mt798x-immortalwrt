@@ -203,6 +203,7 @@ platform_do_upgrade() {
 	nradio,wt9103 |\
 	cmcc,a10 |\
 	cmcc,rax3000m |\
+	cmcc,xr30 |\
 	h3c,nx30pro |\
 	*honor,fur-602* |\
 	*konka,komi-a31* |\
@@ -212,6 +213,7 @@ platform_do_upgrade() {
 		nand_do_upgrade "$1"
 		;;
 	cmcc,rax3000m-emmc |\
+	cmcc,xr30-emmc |\
 	*emmc*)
 		CI_KERNPART="kernel"
 		CI_ROOTPART="rootfs"
@@ -252,6 +254,7 @@ platform_check_image() {
 	*jcg,q30* |\
 	cmcc,a10 |\
 	cmcc,rax3000m* |\
+	cmcc,xr30* |\
 	h3c,nx30pro |\
 	*honor,fur-602* |\
 	*konka,komi-a31* |\
