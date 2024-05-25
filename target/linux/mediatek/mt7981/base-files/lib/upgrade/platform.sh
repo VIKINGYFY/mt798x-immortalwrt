@@ -207,6 +207,7 @@ platform_do_upgrade() {
 	*honor,fur-602* |\
 	*konka,komi-a31* |\
 	*newland,nl-wr8103* |\
+	newland,nl-wr9103 |\
 	*snand*)
 		nand_do_upgrade "$1"
 		;;
@@ -255,6 +256,7 @@ platform_check_image() {
 	*honor,fur-602* |\
 	*konka,komi-a31* |\
 	*newland,nl-wr8103* |\
+	newland,nl-wr9103 |\
 	nradio,wt9103 |\
 	*snand* |\
 	*emmc*)
