@@ -758,6 +758,7 @@ setup_model()
 	h3c,nx30pro |\
 	*honor,fur-602* |\
 	konka,komi-a31 |\
+	newland,nl-wr8103 |\
 	nradio,wt9103 |\
 	*7981*)
 		MT7981_whnat $num_of_wifi $usbnet

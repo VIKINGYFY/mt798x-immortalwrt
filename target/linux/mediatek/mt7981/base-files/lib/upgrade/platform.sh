@@ -206,6 +206,7 @@ platform_do_upgrade() {
 	h3c,nx30pro |\
 	*honor,fur-602* |\
 	*konka,komi-a31* |\
+	*newland,nl-wr8103* |\
 	*snand*)
 		nand_do_upgrade "$1"
 		;;
@@ -253,6 +254,7 @@ platform_check_image() {
 	h3c,nx30pro |\
 	*honor,fur-602* |\
 	*konka,komi-a31* |\
+	*newland,nl-wr8103* |\
 	nradio,wt9103 |\
 	*snand* |\
 	*emmc*)
